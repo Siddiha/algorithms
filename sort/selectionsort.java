@@ -1,5 +1,8 @@
 import java.util.Arrays;
-
+/*TIme complexity is 
+ * Best case- o(n^2) finding the maximum items in the array
+ * Worst case o(n^2)
+ */
 public class selectionsort {
     public static void main(String[] args) {
         int[] arr = {3, 1, 5, 4, 2};
