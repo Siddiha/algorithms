@@ -14,13 +14,13 @@ class Solution {
                 start++;
 
             }else{
-                return new int[]{//if it is exactly equal to the target
+                return new int[]{//if it is exactly equal to the target value and the indexed base is from 1.
                     start + 1,end + 1};
 
             }
 
         }
 
-            return new int[0];
+            return new int[0];//returns empty when there is no solution to the answer.
     }
 }
